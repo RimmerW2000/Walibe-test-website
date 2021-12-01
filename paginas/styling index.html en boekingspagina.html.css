@@ -18,13 +18,17 @@ h1 {
 
 button {
     color: hsl(50, 0%, 0%);
+    background-color: red;
+    font-size: 20px;
 }
 
 button:hover {
-    color: green;
+    color: yellow;
+    background-color: green;
 }
 
 .text-link {
+
     color: black;
 }
 
@@ -33,5 +37,5 @@ button:hover {
 }
 
 .borderpic {
-    color: brown;git add.
+    color: black;
 }
