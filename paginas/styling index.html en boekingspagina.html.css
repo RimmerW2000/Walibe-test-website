@@ -9,17 +9,26 @@ body {
 
 h1 {
     color: yellow;
-    margin: 0px;
     background-color: darkgreen;
     text-align: center;
     font-family: 'Cinzel Decorative', cursive;
     font-size: bold;
 }
 
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.first-p{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
 button {
     color: hsl(50, 0%, 0%);
     background-color: red;
-    font-size: 20px;
+    font-size: 30px;
+    position: sticky;
 }
 
 button:hover {
@@ -38,4 +47,40 @@ button:hover {
 
 .borderpic {
     color: black;
+    border-width: 15px;
+    border-radius: 25px;
+    border-color: darkblue;
+    border-style: dashed;
 }
+
+.home {
+    background-color: hsl(232, 56%, 79%);
+    margin-bottom: 10px;
+    margin-right: 1000px;
+    padding: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    border-style: inset;
+    border-width: 5px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-color: hsl(120, 100%, 25%);
+    border-top-color: hsl(60, 100%, 50%);
+    border-left-color: 	hsl(108, 100%, 61%);
+    border-right-color:hsl(148, 100%, 59%);
+}
+
+.moving-section{
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+.moving-section1{
+    position: relative;
+}
+
